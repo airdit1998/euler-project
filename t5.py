@@ -11,4 +11,6 @@ while len(a) != 17:
     for k in range(3, 20):
         if i % k == 0:
             a.append(k)
+            if len(a) != k:
+                continue
 print(i)  # 232792560
